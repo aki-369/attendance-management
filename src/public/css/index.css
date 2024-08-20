@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    height: 800px;
+    max-width: 1512px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.message {
+    height: 100px;
+    text-align: center;
+}
+
+.message-text {
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+}
+
+.attendance-item {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.break-item {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.clock-in {}
+
+.clock-in__button {
+    border: none;
+    background-color: #fff;
+    width: 400px;
+    height: 150px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #000;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.clock-out {}
+
+.clock-out__button {
+    border: none;
+    background-color: #fff;
+    width: 400px;
+    height: 150px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #000;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.break-start {}
+
+.break-start__button {
+    border: none;
+    background-color: #fff;
+    width: 400px;
+    height: 150px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #000;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.break-end {}
+
+.break-end__button {
+    border: none;
+    background-color: #fff;
+    width: 400px;
+    height: 150px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #000;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.disabled {
+    border: none;
+    background-color: #fff;
+    width: 400px;
+    height: 150px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #e2e2e2;
+    padding: 20px;
+    cursor: not-allowed;
+}

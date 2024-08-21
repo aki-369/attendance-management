@@ -16,13 +16,8 @@ class AttendanceFactory extends Factory
      */
     public function definition()
     {
-        $clock_in = $this->faker->dateTimeThisMonth();
-        $clock_out = (clone $clock_in)->modify('+8 hours');
-
         return [
             'user_id' => User::factory(),
-            'clock_in' => $clock_in,
-            'clock_out' => $clock_out, 
         ];
     }
 }

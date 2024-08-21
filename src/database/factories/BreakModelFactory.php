@@ -15,13 +15,6 @@ class BreakModelFactory extends Factory
      */
     public function definition()
     {
-            $break_start = $this->faker->dateTimeThisMonth();
-            $break_end = (clone $break_start)->modify('+1 hour');
-
-        return [
-            'attendance_id' => null, // 後で設定するためにプレースホルダーにする
-            'break_start' => $break_start,
-            'break_end' => $break_end,
-        ];
+        return [];
     }
 }
